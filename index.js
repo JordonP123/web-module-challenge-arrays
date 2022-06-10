@@ -46,9 +46,44 @@ Use the copy function below to do the following:
 */
 
 
-function copy(/*your code here*/){
-  /*your code here*/
+function copy(array){
+  const originalFlavors = [
+    "Banana Nut Fudge",
+    "Black Walnut",
+    "Burgundy Cherry",
+    "Butterscotch Ribbon",
+    "Cherry Macaron",
+    "Chocolate",
+    "Chocolate Almond",
+    "Chocolate Chip",
+    "Chocolate Fudge",
+    "Chocolate Mint",
+    "Chocolate Ribbon",
+    "Coffee",
+    "Coffee Candy",
+    "Date Nut",
+    "Eggnog",
+    "French Vanilla",
+    "Green Mint Stick",
+    "Lemon Crisp",
+    "Lemon Custard",
+    "Lemon Sherbet",
+    "Maple Nut",
+    "Orange Sherbet",
+    "Peach",
+    "Peppermint Fudge Ribbon",
+    "Peppermint Stick",
+    "Pineapple Sherbet",
+    "Raspberry Sherbet",
+    "Rocky Road",
+    "Strawberry",
+    "Vanilla",
+    "Vanilla Burnt Almond"
+    
+  ]
+  return array;
 }
+console.log(copy('The parameter argument was returned'))
 
 
 
@@ -63,9 +98,48 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 
-function is31Flavors(/*your code here*/){
-  /*your code here*/
- }
+function is31Flavors(){
+  const originalFlavors = [
+    "Banana Nut Fudge",
+    "Black Walnut",
+    "Burgundy Cherry",
+    "Butterscotch Ribbon",
+    "Cherry Macaron",
+    "Chocolate",
+    "Chocolate Almond",
+    "Chocolate Chip",
+    "Chocolate Fudge",
+    "Chocolate Mint",
+    "Chocolate Ribbon",
+    "Coffee",
+    "Coffee Candy",
+    "Date Nut",
+    "Eggnog",
+    "French Vanilla",
+    "Green Mint Stick",
+    "Lemon Crisp",
+    "Lemon Custard",
+    "Lemon Sherbet",
+    "Maple Nut",
+    "Orange Sherbet",
+    "Peach",
+    "Peppermint Fudge Ribbon",
+    "Peppermint Stick",
+    "Pineapple Sherbet",
+    "Raspberry Sherbet",
+    "Rocky Road",
+    "Strawberry",
+    "Vanilla",
+    "Vanilla Burnt Almond"
+  ]
+  if(31 === originalFlavors.length){
+    return true;
+  }
+  else{
+    return false;
+  }
+}  
+console.log(is31Flavors())
 
 
 
@@ -82,9 +156,43 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-  /*your code here*/
- }
+function addFlavor(){
+  const originalFlavors = [
+    "Banana Nut Fudge",
+    "Black Walnut",
+    "Burgundy Cherry",
+    "Butterscotch Ribbon",
+    "Cherry Macaron",
+    "Chocolate",
+    "Chocolate Almond",
+    "Chocolate Chip",
+    "Chocolate Fudge",
+    "Chocolate Mint",
+    "Chocolate Ribbon",
+    "Coffee",
+    "Coffee Candy",
+    "Date Nut",
+    "Eggnog",
+    "French Vanilla",
+    "Green Mint Stick",
+    "Lemon Crisp",
+    "Lemon Custard",
+    "Lemon Sherbet",
+    "Maple Nut",
+    "Orange Sherbet",
+    "Peach",
+    "Peppermint Fudge Ribbon",
+    "Peppermint Stick",
+    "Pineapple Sherbet",
+    "Raspberry Sherbet",
+    "Rocky Road",
+    "Strawberry",
+    "Vanilla",
+    "Vanilla Burnt Almond"
+  ]
+  originalFlavors.unshift('Rainbow Sherbert');
+  return originalFlavors
+}
 
 
 
@@ -100,8 +208,42 @@ Use the removeLastFlavor function below to do the following:
 */
 
 
-function removeLastFlavor(/*your code here*/){
- /*your code here*/
+function removeLastFlavor(){
+  const originalFlavors = [
+    "Banana Nut Fudge",
+    "Black Walnut",
+    "Burgundy Cherry",
+    "Butterscotch Ribbon",
+    "Cherry Macaron",
+    "Chocolate",
+    "Chocolate Almond",
+    "Chocolate Chip",
+    "Chocolate Fudge",
+    "Chocolate Mint",
+    "Chocolate Ribbon",
+    "Coffee",
+    "Coffee Candy",
+    "Date Nut",
+    "Eggnog",
+    "French Vanilla",
+    "Green Mint Stick",
+    "Lemon Crisp",
+    "Lemon Custard",
+    "Lemon Sherbet",
+    "Maple Nut",
+    "Orange Sherbet",
+    "Peach",
+    "Peppermint Fudge Ribbon",
+    "Peppermint Stick",
+    "Pineapple Sherbet",
+    "Raspberry Sherbet",
+    "Rocky Road",
+    "Strawberry",
+    "Vanilla",
+    "Vanilla Burnt Almond"
+  ]
+    originalFlavors.pop();
+    return originalFlavors;
 }
 
 
@@ -118,9 +260,45 @@ Use the getFlavorByIndex function below to do the following:
 */
 
 
-function getFlavorByIndex(/*your code here*/){
-  /*your code here*/
+function getFlavorByIndex(){
+  const originalFlavors = [
+    "Banana Nut Fudge",
+    "Black Walnut",
+    "Burgundy Cherry",
+    "Butterscotch Ribbon",
+    "Cherry Macaron",
+    "Chocolate",
+    "Chocolate Almond",
+    "Chocolate Chip",
+    "Chocolate Fudge",
+    "Chocolate Mint",
+    "Chocolate Ribbon",
+    "Coffee",
+    "Coffee Candy",
+    "Date Nut",
+    "Eggnog",
+    "French Vanilla",
+    "Green Mint Stick",
+    "Lemon Crisp",
+    "Lemon Custard",
+    "Lemon Sherbet",
+    "Maple Nut",
+    "Orange Sherbet",
+    "Peach",
+    "Peppermint Fudge Ribbon",
+    "Peppermint Stick",
+    "Pineapple Sherbet",
+    "Raspberry Sherbet",
+    "Rocky Road",
+    "Strawberry",
+    "Vanilla",
+    "Vanilla Burnt Almond"
+  ]
+  return originalFlavors[2];
 }
+
+
+
 
 
 
@@ -138,10 +316,17 @@ Use the removeFlavorByName function below to do the following:
   HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/){
-  /*your code here*/
-}
+function removeFlavorByName(originalFlavors, newFlavors2){
+  for (let i = 0; i < originalFlavors.length; i++){  
+      if(originalFlavors[i] === newFlavors2){
+        originalFlavors.splice(i,1)
+        return originalFlavors;
+      }
+    }
+  } 
 
+  
+   //console.log( removeFlavorByName(originalFlavors, 'Peach'));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -163,10 +348,17 @@ Use the filterByWord function below to do the following:
 */
 
 
-function filterByWord(/*your code here*/){
-  /*your code here*/
+function filterByWord(originalFlavors,array2){
+  let chocoFlavors = [];
+  for(let i = 0; i < originalFlavors.length; i++){
+    if(originalFlavors[i].includes(array2)){
+        chocoFlavors.push(originalFlavors[i])
+       }
+       
+  }
+return chocoFlavors;
 }
-
+console.log(filterByWord(originalFlavors, 'Chocolate' ))
 
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
